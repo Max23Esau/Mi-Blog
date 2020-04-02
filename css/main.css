@@ -345,6 +345,10 @@ footer p {
 .perfil-project {
     padding: 10px;
 }
+.perfil-project h3{
+    text-align: center;
+}
+
 .perfil-project p{
     text-align: justify;
 }
