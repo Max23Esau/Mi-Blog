@@ -40,14 +40,13 @@ header .header-icons-container .icons{
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
-    /* text-shadow: 0px 0px 10px #fff; */
 }
 
 header .icons span {
     color: white;
 }
 header .icons span:hover {
-    color: black;
+    text-shadow: 0px 0px 10px #fff;
 }
 
 .header-nav-container {
