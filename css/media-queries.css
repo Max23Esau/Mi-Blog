@@ -1,0 +1,299 @@
+@media (max-width: 1024px) {
+
+}
+
+
+
+@media (max-width: 900px) {
+    header .header-icons-container .icons {
+        justify-self: center;
+        margin: auto;
+    }
+
+    .hero-container {
+        display: block;
+        text-align: center;
+    }
+
+    .hero-container-image img {
+        max-width: 100%;
+    }
+    .hero-container-title h3{
+        margin: 10px 0;
+    }
+    .hero-container-details h1 {
+        margin: .5em 0;
+    }
+    .main-blogpost-contain {
+        display: grid;
+        grid-template: auto / repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .post p{
+        margin-bottom: 2em;
+    }
+
+    .post {
+        height: 500px;
+        max-width: 85%;
+        margin: auto;
+        padding: 1.5em;
+    }
+    .hero-section {
+        height: 150vh;
+    }
+    .main-section {
+        margin-top: 40px;
+    }
+    .main-blogpost-title {
+        margin: 5% 20px;
+    }
+    .blog-news {
+        margin: 0;
+    }
+    .blog-news-encabezado {
+        text-align: center;
+    }
+    .contact {
+        padding: 0 50px;
+    }
+    .contact-email, .contact-chat {
+        margin: 0 10px;
+}
+
+
+@media (max-width: 720px) {
+    .main-index-title {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .hero-section {
+        height: 140vh;
+    }
+    .post {
+        height: 520px;
+    }
+    nav .profile-link {
+        margin-right: 25px;
+    }
+    .contact-email, .contact-chat {
+        margin: 0 10px;
+    }
+    .main-blog {
+        padding: 10px 25px;
+    }
+
+    .blog-news-description h1{
+        font-size: 2em;
+    }
+    .blog-news-encabezado p{
+        font-size: 1.3em;
+    }
+    .contact-container, .contact {
+        padding: 0;
+    }
+    .perfil-hero-contain {
+        display: block;
+        text-align: center;
+    }
+    .perfil-projects {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-index-title {
+        font-size: 1em;
+        letter-spacing: 5px;
+        margin-top: 4em;
+        text-align: center;
+        color: snow;
+    }
+    .main-blogpost-contain {
+        display: grid;
+        grid-template: auto / 1fr;
+        gap: 50px;
+    }
+    .hero-container-details h1 {
+        font-size: 2.5em;
+    }
+    .hero-container-details p {
+        margin: 0px 10px 25px 10px;
+    }
+
+    .post {
+        height: 500px;
+        max-width: 85%;
+        margin: auto;
+        padding: 1.5em;
+    }
+    .hero-section {
+        height: 130vh;
+    }
+    .main-section {
+        margin-top: 40px;
+    }
+    .main-blogpost-title {
+        margin: 5% 20px;
+    }
+    .main-blog {
+        padding: 10px 25px;
+    }
+    .perfil-projects {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .perfil-project h3{
+        text-align: center;
+    }
+    .perfil-project p{
+        text-align: justify;
+    }
+
+
+
+}
+@media (max-width: 430px){
+    .main-blogpost, .main-blog, .hero-container {
+        padding: 1px 0px;
+    }
+
+    .header-nav-container {
+        height: auto;
+    }
+    nav .nav-logo-container img {
+        width: 100%;
+    }
+    nav .profile-link a {
+        font-size: 1.4em;
+    }
+    nav .profile-link {
+        margin-right: 20px;
+    }
+    .hero-container-details h1 {
+        font-size: 2em;
+    }
+    .hero-section {
+        height: 120vh;
+    }
+    .post {
+        padding: 1em;
+    }
+    .blog-img img {
+        width: 90%;
+    }
+    .blog-news {
+        margin: 0;
+    }
+    .blog-news-encabezado {
+        text-align: center;
+        margin: 0 20px;
+    }
+    .blog-news-description {
+        text-align: justify;
+        margin: 0 20px;
+    }
+    .blog-news-description p{
+        font-size: .9em;
+    }
+    .contact-container {
+        height: 300px;
+    }
+    .contact {
+        grid-template-columns: 1fr;
+    }
+    .contact-email, .contact-chat {
+        margin: 0 10px;
+    }
+    .contact-email img, .contact-chat img {
+        width: 80px;
+    }
+    .contact-email-details a, .contact-chat-details a {
+        font-size: 1.3em;
+    }
+    .contact-email-details p, .contact-chat-details p {
+        font-size: 1em;
+    }
+}
+@media (max-width: 320px){
+
+    .header-nav-container {
+        height: auto;
+    }
+    nav .nav-logo-container img {
+        width: 100%;
+    }
+    nav .profile-link a {
+        font-size: 1.2em;
+    }
+
+    .main-index-title {
+        font-size: 1em;
+        letter-spacing: 5px;
+        margin-top: 4em;
+        text-align: center;
+        color: snow;
+    }
+
+    .hero-section {
+        height: 110vh;
+    }
+    .hero-container-details h1 {
+        font-size: 1.5em;
+    }
+    .main-blogpost-title {
+        border-bottom: 0px;
+        margin: 5% 0px;
+        font-size: 1.5em;
+    }
+    .post {
+        height: 520px;
+        max-width: 85%;
+        margin: auto;
+        padding: .5em;
+    }
+    .blog-news-description h1{
+        font-size: 1.5em;
+    }
+    .blog-news-encabezado p{
+        font-size: 1.1em;
+    }
+    /*
+    .blog-img img {
+        width: 90%;
+    }
+    .blog-news {
+        margin: 0;
+    }
+    .blog-news-encabezado {
+        text-align: center;
+        margin: 0 20px;
+    }
+    .blog-news-description {
+        text-align: justify;
+        margin: 0 20px;
+    }
+    .blog-news-description p{
+        font-size: .9em;
+    }
+     .contact-container {
+        height: 300px;
+    }
+    .contact {
+        grid-template-columns: 1fr;
+    }
+    .contact-email, .contact-chat {
+        margin: 0 10px;
+    }
+    .contact-email img, .contact-chat img {
+        width: 80px;
+    }
+    .contact-email-details a, .contact-chat-details a {
+        font-size: 1.3em;
+    }
+    .contact-email-details p, .contact-chat-details p {
+        font-size: 1em;
+    } */
+}

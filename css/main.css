@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&amp;display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto mono', monospace;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+.grid-container {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: auto;
+}
+/* Inicio de Section Header */
+header {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #48cfad;
+    margin: 0 auto;
+}
+header .header-icons-container .icons{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+    /* text-shadow: 0px 0px 10px #fff; */
+}
+
+header .icons span {
+    color: white;
+}
+header .icons span:hover {
+    color: black;
+}
+
+.header-nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    background: black;
+    width: 100%;
+}
+
+nav .nav-logo-container {
+    margin: 0; 
+}
+nav .nav-logo-container img{
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a{
+    color: white;
+    font-size: 1.7em;
+}
+nav .profile-link a:hover{
+    text-shadow: 0px 0px 15px white;
+}
+
+/* Fin de Section Header */
+
+
+/* Inicio de Section astronauta */
+.main-index {
+    background-image: url("../assets/img/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.main-index, .main-index-button {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto mono', monospace;
+}
+.main-index-title {
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    margin-top: 2em;
+    text-shadow: 0 0 10px #48cfad;
+
+}
+/* .main-index-title:hover {
+    text-shadow: 0px 0px 15px white;
+} */
+
+.main-index-title h2{
+    margin: 0 0 2em 0;
+}
+
+.main-index-button {
+    background-color: #48cfad;
+    border: 1px solid #48cfad;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+.main-index-button:hover {
+    box-shadow: 0px 0px 20px #48cfad80;
+}
+
+/* Fin de Section astronauta */
+
+/* Inicio de Section blogs */
+.hero-section {
+    background: aliceblue;
+    color: black;
+}
+.hero-container {
+    padding: 1px 50px 40px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.hero-container-title {
+    grid-column: 1;
+}
+.hero-container-title h3{
+    margin: 10px 0 10px 15px;
+    font-size: 1.3em;
+}
+
+.hero-container-image {
+    grid-column: 1;
+    margin: auto;
+    text-align: center;
+}
+.hero-container-image img{
+    width: 95%;
+    border-radius: 10px;
+}
+.hero-container-image img:hover{
+    box-shadow: 0px 0px 20px #4848cf;
+}
+
+.hero-container-details {
+    grid-column: 2;
+}
+
+.hero-container-details h1 {
+    font-size: 3em;
+    margin: 0 0 .5em 0;
+}
+.hero-container-details p{
+    margin: 0 0 25px 0;
+}
+
+.button-more-read {
+    color: white;
+    padding: 10px 20px;
+    background-color: #48cfad;
+    border: 1px solid #48cfad;
+    border-radius: 5px;
+}
+.button-more-read:hover {
+    box-shadow: 0px 0px 20px #48cfad80;
+}
+/* .main-section {
+    background-color: black;
+} */
+.main-blogpost, .main-blog {
+    padding: 25px 50px;
+    color: snow;
+}
+.main-blogpost-title {
+    border-bottom: 1px solid #48cfad66;
+    margin: 5% 0;
+    font-size: 2em;
+}
+.main-blogpost-title h3{
+    text-align: center;
+    margin-top: -1em;
+    text-shadow: 0px 0px 10px #4848cf;
+}
+
+.main-blogpost-contain {
+    display: grid;
+    grid-template: repeat(2, 1fr)/ repeat(3, 1fr);
+    gap: 50px;
+}
+.post {
+    height: 500px;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #48cfad80;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.post:hover{
+    border: 0px;
+    box-shadow: 0px 0px 10px #48cfad80;
+}
+.post h3 {
+    margin: .5em 0 .8em;
+}
+.post img{
+    width: 100%;
+    border-radius: 10px;
+}
+.post p {
+    margin: .5em 0 1.5em;
+    font-size: 1em;
+}
+
+footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+footer p {
+    text-shadow: 0px 0px 20px white;
+    margin: 1em 0;
+}
+/* Fin de Section blogs */
+
+/* Inicio de Section blog */
+.blog-img {
+    text-align: center;
+
+}
+.blog-img img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.blog-news {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 18%;
+    color: snow;
+    text-align: justify;
+}
+.blog-news-encabezado {
+    border-bottom: 1px solid snow;
+}
+.blog-news-description h1{
+    font-size: 3em;
+    margin: .5em 0;
+}
+.blog-news-description h1{
+    font-size: 1.3em;
+}
+.contact-container {
+    background-color: #48cfad;
+    height: 200px;
+    display: flex;
+    padding: 0 50px;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-email, .contact-chat {
+    display: flex;
+    align-items: center;
+}
+.contact-email img, .contact-chat img {
+    width: 100px;
+}
+.contact-email-details, .contact-chat-details{
+    padding: 10px;
+    color: black;
+}
+.contact-email-details a, .contact-chat-details a{
+    font-size: 1.5em;
+    color: black;
+    text-decoration: underline;
+}
+.contact-email-details p, .contact-chat-details p{
+    margin: .5em 0;
+}
+
+/* Fin de Section blog */
+.perfil-hero {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 3%;
+}
+.perfil-hero-contain img {
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 20px #48cfad;
+    border-radius: 10px;
+}
+.perfil-hero-contain {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 20px;
+    color: black;
+}
+.perfil-hero-details h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.perfil-hero-details p {
+    font-size: 1.3em;
+}
+
+.perfil-section {
+    padding: 5% 3%;
+}
+.perfil-title {
+    text-align: center;
+    border-bottom: 1px solid snow;
+}
+.perfil-title h3{
+    font-size: 2em;
+    margin: 0 0 1em 0;
+}
+.perfil-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.perfil-project {
+    padding: 10px;
+}
+.perfil-project p{
+    text-align: justify;
+}
