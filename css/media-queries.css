@@ -254,6 +254,9 @@
     .blog-news-encabezado p{
         font-size: 1.1em;
     }
+    .perfil-section {
+        padding: 0;
+    }
     .perfil-hero-contain img {
         width: 90%;
     }
