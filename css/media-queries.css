@@ -56,7 +56,6 @@
         margin: 0 10px;
 }
 
-
 @media (max-width: 720px) {
     .main-index-title {
         font-size: 1.2em;
@@ -145,9 +144,6 @@
     .perfil-project p{
         text-align: justify;
     }
-
-
-
 }
 @media (max-width: 430px){
     .main-blogpost, .main-blog, .hero-container {
@@ -222,7 +218,6 @@
     nav .profile-link a {
         font-size: 1.2em;
     }
-
     .main-index-title {
         font-size: 1em;
         letter-spacing: 5px;
