@@ -254,13 +254,18 @@ footer p {
 .blog-news {
     display: flex;
     flex-direction: column;
-    margin: 0px 18%;
+    margin: auto;
     color: snow;
     text-align: justify;
 }
 .blog-news-encabezado {
     border-bottom: 1px solid snow;
+    text-align: center;
 }
+.blog-news-encabezado p{
+    font-size: 1.2em;
+}
+
 .blog-news-description h1{
     font-size: 3em;
     margin: .5em 0;
